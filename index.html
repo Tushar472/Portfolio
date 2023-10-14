@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Me And MY Team</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <div id="main">
+        <!-- my home section where i put video and some description -->
+        <div data-scroll data-scroll-speed="-5" id="page1">
+            <nav class="navbar">
+                <div class="max-width">
+
+                    <div class="logo"><a href="#">Port<span>folio.</span></a></div>
+                    <div id="right-nav">
+                        <ul class="menu">
+                            <li><a href="#home" class="menu-btn">Home</a></li>
+                            <li><a href="#page2" class="menu-btn">About</a></li>
+                            <li><a href="#page3" class="menu-btn">Services</a></li>
+                            <li><a href="#page4" class="menu-btn">Skills</a></li>
+                            <li><a href="#page5" class="menu-btn">Teams</a></li>
+                            <li><a href="#page6" class="menu-btn">Contact</a></li>
+                        </ul>
+                        <div class="menu-btn">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="bottom-page1">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Tushar Joshi</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+            </div>
+            <video src="arc.mp4" autoplay loop muted></video>
+        </div>
+        <!-- About section for my-self  -->
+        <div id="page2">
+            <h2 class="title">About me</h2>
+            <h1>Highly motivated and results-oriented Computer Science Engineer with a strong foundation in computer science principles, programming languages, and software development. Adept at designing, developing, and implementing innovative software solutions to address complex business challenges
+            </h1>
+        </div>
+        <!-- MY services page -->
+        <div id="page3">
+            <div class="max-width">
+                <h2 class="title">My services</h2>
+                <div class="serv-content">
+                    <div class="card">
+                        <div class="box">
+                            <i class="fas fa-bug"></i>
+                            <div class="text">Bug Huntting</div>
+                            <p>Bug bounty hunting is a method for finding flaws and vulnerabilities in web applications.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <i class="fas fa-wifi"></i>
+                            <div class="text">Web Designing</div>
+                            <p> The process of creating the visual aspects and user experience of a website.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <i class="fas fa-user-plus"></i>
+                            <div class="text">Teaching</div>
+                            <p>How Programming work and mathematical concepts in a digital field</p>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+            </div>
+            <!-- Skills  -->
+            <div id="page4">
+                <div class="max-width">
+                    <h2 class="title">My skills</h2>
+                    <div class="skills-content">
+                        <div class="column left">
+                            <div class="text">My creative skills & experiences.</div>
+                            <p>Versatile full-stack developer and data scientist with a strong foundation in web development, including proficiency in front-end technologies like HTML, CSS, JavaScript, and back-end frameworks such as Node.js and Python. Skilled in creating interactive, data-driven web applications. Experienced in data analysis, machine learning, and AI, leveraging this knowledge to extract valuable insights and build predictive models. Strong problem-solving abilities and an agile approach to tackling complex projects. Committed to staying current with the latest technology trends and continuously enhancing my skills.
+                            </p>
+                        </div>
+                        <div class="column right">
+                            <div class="bars">
+                                <div class="info">
+                                    <span>HTML & CSS</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="line html"></div>
+                            </div>
+                            <div class="bars">
+                                <div class="info">
+                                    <span>JavaScript</span>
+                                    <span>60%</span>
+                                </div>
+                                <div class="line js"></div>
+                            </div>
+                            <div class="bars">
+                                <div class="info">
+                                    <span>Python</span>
+                                    <span>65%</span>
+                                </div>
+                                <div class="line python"></div>
+                            </div>
+                            <div class="bars">
+                                <div class="info">
+                                    <span>MY-SQL</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="line sql"></div>
+                            </div>
+                            <div class="bars">
+                                <div class="info">
+                                    <span>C</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="line c"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Me and my friends and their profiles -->
+            <div id="page5">
+                <div class="max-width">
+                    <h2 class="title">My Team</h2>
+                    <div class="carousel owl-carousel">
+                        <div class="card">
+                            <div class="box">
+                                <img src="adi.jpeg" alt="">
+                                <div class="text">Aditya Garg</div>
+                                <p>Data Scientist. <br><a target="_blank" href="https://www.linkedin.com/in/aditya-garg-68208925a/">Click-here</a></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="box">
+                                <img src="gulu.jpeg" alt="">
+                                <div class="text">Ghulam Rabbani</div>
+                                <p>Software Developer<br><a target="_blank" href="https://www.linkedin.com/in/md-ghulam-rabbani-81a448200/">Click-here</a></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="box">
+                                <img src="sid.jpeg" alt="">
+                                <div class="text">Siddharth Saini</div>
+                                <p>Android Developer. <br><a target="_blank" href="https://www.instagram.com/wakeup__sid04/">Click-here</a></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="box">
+                                <img src="om.jpeg" alt="">
+                                <div class="text">OM Shukla</div>
+                                <p>Reasercher in AI field.<br><a target="_blank" href="https://www.linkedin.com/in/om-shukla-916a991b3/">Click-here</a></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="box">
+                                <img src="nitin.jpeg" alt="">
+                                <div class="text">Nitin Rawat</div>
+                                <p>Backhend Developer. <br><a target="_blank" href="https://www.linkedin.com/in/nitin-rawat-113450206/">Click-here</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- connecting with me anyone -->
+            <div id="page6">
+                <div class="page6-inner">
+                    <h1> <a target="_blank" href="https://www.linkedin.com/in/tushar-joshi-58172b221/">Linked-In</a></h1>
+                    <i class="ri-arrow-right-up-line"></i>
+                    <div class="center6"></div>
+                </div>
+                <div class="page6-inner">
+                    <h1><a target="_blank" href="https://twitter.com/Ironic_boy_">Twitter</a></h1>
+                    <i class="ri-arrow-right-up-line"></i>
+                    <div class="center6"></div>
+    
+                </div>
+                <div class="page6-inner">
+                    <h1><a target="_blank" href="https://www.instagram.com/tushar_joshi_0/?hl=en">Instagram</a></h1>
+                    <i class="ri-arrow-right-up-line"></i>
+                    <div class="center6"></div>
+    
+                </div>
+                <footer>
+                    <span>Designed By: <a href="">Tushar Joshi</a> |  <span class="fab fa-google"></span> tushar472002@gmail.com</span>
+                </footer>
+            </div>
+            </div>
+            
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js" integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js" integrity="sha512-IHDCHrefnBT3vOCsvdkMvJF/MCPz/nBauQLzJkupa4Gn4tYg5a6VGyzIrjo6QAUy3We5HFOZUlkUpP0dkgE60A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="script.js"></script>
+
+    </div>
+</body>
+</html>
